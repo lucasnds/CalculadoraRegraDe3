@@ -1,75 +1,61 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
 
 body {
-    font-family: 'Inter', sans-serif;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    height: 100vh;
-    background-color: #A33B20;
-    gap: 50px;
-}
+  font-family: 'Inter', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #A33B20;
+  gap: 50px; }
 
 .container {
-    background-color: #27213C;
-    padding: 30px;
-    border-radius: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-
-input {
-    border: 0;
-    background-color: #A6A57A;
-    padding: 10px;
-    border-radius: 20px;
-    width: 50%;
-    font-size: 30px;
-    outline: 0;
-    text-align: center;
-}
-
-input::placeholder {
-    font-size: 20px;
-    color: #5A352A;
-}
+  background-color: #27213C;
+  padding: 30px;
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  div-display: flex; }
 
 p {
-    color: #fff;
-    padding: 25px;
-    font-weight: 600;
-    letter-spacing: 1px;
-}
+  color: #fff;
+  padding: 25px;
+  font-weight: 600;
+  letter-spacing: 1px; }
+
+input {
+  border: 0;
+  background-color: #A6A57A;
+  padding: 10px;
+  border-radius: 20px;
+  width: 50%;
+  font-size: 30px;
+  outline: 0;
+  text-align: center; }
+  input::placeholder {
+    font-size: 20px;
+    color: #5A352A; }
 
 button {
-    border: 0;
-    font-size: 18px;
-    font-weight: 600;
-    cursor: pointer;
-}
+  border: 0;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 600; }
 
 #btn {
-    padding: 10px 25px;
-    background-color: #5FAD56;
-    margin-right: 20px;
-}
+  padding: 10px 25px;
+  background-color: #5FAD56;
+  margin-right: 20px; }
 
 #resposta {
-    font-size: 28px;
-}
-
-.container div {
-    display: flex;
-}
+  font-size: 28px; }
 
 #refresh {
-    background-color: red;
-    padding: 10px;
-}
+  background-color: red;
+  padding: 10px; }
